@@ -1,0 +1,90 @@
+.webpage {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.20);
+    padding-bottom: 20px;
+}
+.first-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1;
+}
+.first-page .left-side {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side .heading {
+    font-size: 40px;
+}
+.left-side .body {
+    font-size: 19.2px;
+    color: #888;
+    margin-bottom: 30px;
+}
+.left-side .button {
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(204, 204, 204);
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.left-side .button:hover {
+    background: rgb(236, 233, 233);
+  }
+.first-page .right-side {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+}
+.first-page-footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    height: 70px;
+    background-color: #333;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.normal-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.normal-page-container .heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.normal-page-container .body {
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.footer .heading {
+    font-size: 48px;
+    font-weight: 500;
+}
+.footer .body {
+    font-size: 16px;
+    margin-top: 16px;
+}

@@ -1,0 +1,12 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background-color: rgba(235, 228, 228, 0.856);
+    padding-bottom: 44px;
+}
+.img {
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
